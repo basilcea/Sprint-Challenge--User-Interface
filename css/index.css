@@ -148,7 +148,7 @@ footer nav a {
 nav {
     display:flex;
     justify-content:space-evenly;
-    height: 50px;
+    height: 60px;
     align-items:center;
 }
 a{
@@ -166,4 +166,9 @@ a{
 .header-background {
     width:100%;
     padding:2% 1%;
+}
+.second-text-container{
+    width:100%;
+    padding: 2% 4%;
+
 }
