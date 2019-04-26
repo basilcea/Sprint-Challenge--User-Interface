@@ -105,7 +105,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -150,7 +149,8 @@ nav {
     display:flex;
     justify-content:space-evenly;
     height: 60px;
-    align-items:center;
+    margin-bottom:3%;
+    align-items:flex-end;
 }
 a{
     text-decoration:none;
@@ -183,7 +183,8 @@ a{
 }
 .about-middle-content{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
+
 }
 button{
     display:block;
@@ -200,4 +201,26 @@ h2{
 }
 .border-bottom{
     border-bottom: 1px dashed black;
+}
+.color-1{
+    background-color:teal;
+}
+.color-2{
+    background-color:gold;
+}.color-3{
+    background-color:cadetblue;
+}.color-4{
+    background-color:coral;
+}.color-5{
+    background-color:crimson;
+}.color-6{
+    background-color:forestgreen;
+}.color-7{
+    background-color:darkorchid;
+}.color-8{
+    background-color:hotpink;
+}.color-9{
+    background-color:indigo;
+}.color-10{
+    background-color:dodgerblue;
 }
