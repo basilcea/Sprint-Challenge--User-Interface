@@ -53,6 +53,8 @@ table {
 
 html, body {
     height: 100%;
+    /* added */
+    box-sizing:border-box;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -183,4 +185,13 @@ a{
 .about-middle-content{
     display:flex;
     justify-content:space-between;
+}
+button{
+    display:block;
+    font-size:14px;
+    margin:4px;
+    padding:2% 2%;
+    border-radius:5px;
+    border: 1px solid black;
+    width: 40%;
 }
